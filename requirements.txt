@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+chromadb
+sentence-transformers
+streamlit
+pypdf
+python-docx
+huggingface-hub
+ollama
