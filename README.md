@@ -55,22 +55,14 @@ RAG-QnA-Chatbot/
 
 ---
 
-## Features
-1.  **Premium SaaS Light UI**: A clean, highly polished layout containing a status overview, knowledge manager, citation inspector, chat panel, and settings.
-2.  **Immersed 3D Advisor Avatar**: A dynamic animated character avatar with responsive float animations, pulsing ambient backdrops, and drop shadows on the landing page hero section.
-3.  **Visual Compliance Pipeline Diagram**: Shifted to the "How It Works" tab, showing a 5-stage horizontal RAG pipeline mapping 1-to-1 with on-device compliance routines (Ingest, Embedding, Firewall, Self-Correction, Telemetry).
-4.  **Real-Time Trace Log Terminal**: An embedded daemon trace terminal logging operations for prompt PII redaction, exploit similarity filters, Chroma DB retrieval density, and faithfulness scores.
-5.  **Universal Ingestion**:
-    *   *Drag-and-Drop*: Upload custom policy PDFs or text files dynamically.
-    *   *Web Scraper*: Scrape and vectorize any live policy URL (e.g., Wikipedia pages, online articles) with an interactive progress bar.
-6.  **SSE Streaming Chat**: Token-by-token text streaming with inline citations matching source widgets.
-7.  **Enforced Reasoning Trace**: Prompt-level configuration forces any chosen model (Qwen, GPT-OSS, Gemini) to output its thinking process inside a collapsible **View LLM Thinking Process** panel.
-8.  **Expandable Source Footnotes**: Clean accordions directly under messages showing exact retrieved source snippets and page counts.
-9.  **Dynamic Diagnostics**: Adjust `temperature`, `chunk_size`, and `chunk_overlap` sliders on the fly and re-index the database.
-10. **Dynamic Model Discovery**: Queries the Groq/Gemini APIs at startup to list only the models authorized on your API credentials.
-11. **Real-Time LLM Judge**: Evaluates every answer on **Faithfulness**, **Answer Relevance**, and **Context Precision** using a dedicated, rate-limit-resistant evaluator model (`groq/compound-mini`).
-12. **Offline Benchmark Suite**: Run the system against standard compliance questions to evaluate average quality scores.
-13. **Local Safety Guardrails**: Screens queries to block harmful or out-of-scope compliance injections.
+## Key Features
+1. **Interactive Chat & Server Sent Event (SSE) Streaming**: Token-by-token text streaming with source footnotes and collapsible chain-of-thought reasoning logs.
+2. **3D Animated Avatar**: Floating animated compliance manager GIF integrated directly into the landing hero section.
+3. **5-Stage Pipeline & Trace Daemon**: Visual horizontal RAG pipeline flow on the "How It Works" tab with a live-styled simulator terminal trace log.
+4. **Universal Ingestion**: Drag-and-drop uploader (PDF/TXT) and webpage scraper with real-time vector indexing.
+5. **Real-Time LLM Judge**: Automatic turn-by-turn evaluation of Faithfulness, Answer Relevance, and Context Precision.
+6. **Zero-Trust Safety Firewall**: Local PII scrubber and semantic similarity firewall shielding incoming queries.
+7. **Dynamic Configurations**: Adjustable temperature, chunk size, chunk overlap, and active model sliders on the fly.
 
 ---
 
